@@ -59,7 +59,7 @@ $assumedRole = \ClouSale\AmazonSellingPartnerAPI\AssumeRole::assume(
     $options['region'],
     $options['access_key'],
     $options['secret_key'],
-    $options['role_arn'],
+    $options['role_arn']
 );
 $config = \ClouSale\AmazonSellingPartnerAPI\Configuration::getDefaultConfiguration();
 $config->setHost($options['endpoint']);
